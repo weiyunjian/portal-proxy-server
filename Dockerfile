@@ -5,6 +5,6 @@ RUN cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
     cat /etc/nginx/nginx.conf && \
     curl https://updater.elemenx.com/weiyunjian/int/int.crt > /etc/nginx/int.crt && \
     curl https://updater.elemenx.com/weiyunjian/int/int.key > /etc/nginx/int.key && \ 
-    curl https://updater.elemenx.com/weiyunjian/int/ca.pem > /etc/nginx/ca.pem && \ 
+    curl https://updater.elemenx.com/weiyunjian/int/ocsp.crt > /etc/nginx/ocsp.crt && \ 
     curl https://updater.elemenx.com/weiyunjian/int/nginx.conf > /etc/nginx/nginx.conf
 
